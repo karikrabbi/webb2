@@ -127,18 +127,30 @@ body {
   text-align: center;
   flex-direction: column;
   margin-bottom: 25vh;
+  font-size: x-large;
 }
-.lonks {
-  text-decoration: none;
-  color: black;
+.items h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.return {
+  height: 75px;
+  width: 175px;
   background-color: white;
-  height: 90px;
-  width: 200px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border: 2px solid #dfb7fb;
+  transition: 0.3s;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.lonks :hover {
-  color: aquamarine;
+.return:hover {
+  color: gray;
+}
+.img2 {
+  height: 300px;
+  width: 200px;
+  border-radius: 30px;
+  border: 2px solid #dfb7fb;
 }
