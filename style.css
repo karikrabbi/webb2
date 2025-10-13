@@ -21,7 +21,8 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
-  border: solid #dfb7fb 3px;
+  border-bottom: solid #dfb7fb 3px;
+  border-top: solid #dfb7fb 3px;
 }
 .menu a:hover {
   transition: 0.2s;
@@ -81,7 +82,10 @@ body {
   border: solid #dfb7fb 2px;
   color: black;
   font-family: "Courier New", Courier, monospace;
+  font-size: large;
   border-radius: 12px;
+  margin: 100px;
+  padding: 20px;
 }
 
 .bread {
@@ -153,4 +157,12 @@ body {
   width: 200px;
   border-radius: 30px;
   border: 2px solid #dfb7fb;
+}
+.rubrik2 {
+  background: linear-gradient(to left, #dfb7fb, rgb(0, 153, 255));
+  margin-top: -2vh;
+  display: flex;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 75px;
 }
